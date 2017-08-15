@@ -84,7 +84,7 @@ a {
 	padding: 10px 30px 30px 30px;
 }
 
-#main-bio {
+#main-bio, #contact {
 	background-color: white;
 	margin: 30px;
 	padding: 10px 30px 30px 30px;
@@ -92,4 +92,8 @@ a {
 
 .link-image {
 	margin-right: 10px;
+}
+
+input {
+	vertical-align: middle;
 }
