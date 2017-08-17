@@ -67,6 +67,9 @@ a {
 	background-color: #A9A9A9;
 	text-align: center;
 	position: relative;
+}
+
+#spacing {
 	width: 50%;
 }
 
@@ -92,10 +95,6 @@ a {
 	margin: 30px;
 	padding: 10px 30px 30px 30px;
 	position: relative;
-	width: 40%;
-	background-color: white;
-	margin: 30px;
-	padding: 10px 30px 30px 30px;
 }
 
 #main-bio, #contact {
@@ -140,8 +139,4 @@ div.image {
 form {
 	display: flex;
 	flex-direction: column;
-}
-
-input {
-	vertical-align: middle;
 }
