@@ -37,12 +37,12 @@ h2, h3 {
 
 h4 {
 	position: absolute;
-	top: 76%;
+	bottom: 0px;
 	background-color: #4aaaa5;
 	padding: 12px;
 	color: white;
-	margin-bottom: 0px;
-	margin-left: 140px;
+	text-align: center;
+	width: 277px;
 }
 
 p {
@@ -66,6 +66,7 @@ a {
 	height: 50px;
 	background-color: #A9A9A9;
 	text-align: center;
+	position: relative;
 }
 
 #spacing {
@@ -79,6 +80,7 @@ a {
 .container {
 	display: flex;
 	align-items: flex-start;
+	position: relative;
 }
 
 #ralph-photo {
@@ -87,10 +89,12 @@ a {
 }
 
 #contact-info {
-	width: 40%;
+	width: 300px;
+	height: 200px;
 	background-color: white;
 	margin: 30px;
 	padding: 10px 30px 30px 30px;
+	position: relative;
 }
 
 #main-bio, #contact {
