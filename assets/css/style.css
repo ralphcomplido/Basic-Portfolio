@@ -42,7 +42,7 @@ h4 {
 	padding: 12px;
 	color: white;
 	text-align: center;
-	width: 277px;
+	width: 227px;
 }
 
 p {
@@ -115,7 +115,7 @@ input {
 }
 
 div.image {
-	margin: 15px;
+	margin: 5px;
 	padding: 15px;
 	float: left;
 	clear:	none;
@@ -132,8 +132,9 @@ div.image {
 #portfolio {
 	background-color: white;
 	margin: 30px;
-	padding: 30px;
-	width: 70%;
+	padding: 10px 30px 30px 30px;
+	width: 600px;
+	height: 1000px;
 }
 
 
