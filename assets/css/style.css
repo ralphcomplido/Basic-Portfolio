@@ -18,7 +18,7 @@ header {
 
 
 h1 {
-	width: 25%;
+	width: 300px;
 	background-color: #4aaaa5;
 	color: white;
 	padding: 20px;
@@ -74,7 +74,7 @@ a {
 }
 
 #links {
-	width: 25%
+	width: 300px;
 
 }
 .container {
@@ -101,6 +101,8 @@ a {
 	background-color: white;
 	margin: 30px;
 	padding: 10px 30px 30px 30px;
+	width: 600px;
+	height: 400px;
 }
 
 .link-image {
