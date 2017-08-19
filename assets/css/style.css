@@ -8,11 +8,11 @@ html, body {
 }
 
 header {
-	display: flex;
 	align-items: center;
 	background-color: white;
 	border-bottom: solid #A9A9A9;
 	border-width: 2px;
+	display: flex;
 }
 
 
@@ -48,8 +48,13 @@ h4 {
 p {
 	font-family: calibri;
 	color: #708090;
+	margin: 1px;
 }
 
+table.labels tr {
+	font-family: calibri;
+	color: #708090;
+}
 a {
 	font-family: calibri;
 	color: #708090;
@@ -66,21 +71,24 @@ a {
 	height: 50px;
 	background-color: #A9A9A9;
 	text-align: center;
-	position: relative;
+	position: absolute;
+	width: 100%;
 }
 
 #spacing {
 	width: 50%;
+	
 }
 
 #links {
-	width: 300px;
-
+	right: 0;
+	width: 250px;
 }
 .container {
 	display: flex;
 	align-items: flex-start;
 	position: relative;
+
 }
 
 #ralph-photo {
@@ -89,12 +97,13 @@ a {
 }
 
 #contact-info {
-	width: 300px;
+	width: 250px;
 	height: 200px;
 	background-color: white;
 	margin: 30px;
 	padding: 10px 30px 30px 30px;
-	position: relative;
+	position: fixed;
+	right: 0;
 }
 
 #main-bio, #contact {
@@ -134,12 +143,39 @@ div.image {
 	margin: 30px;
 	padding: 10px 30px 30px 30px;
 	width: 600px;
-	height: 1000px;
 }
 
 
+
+#contact {
+	background-color: white;
+	margin: 30px;
+	padding: 10px 30px 30px 30px;
+	width: 300px;
+
 }
-form {
-	display: flex;
-	flex-direction: column;
+
+input {
+	width: 100%;
+	border-color: gray;
+	padding: 4px;
+	border: 1px solid #ccc;
+}
+
+
+
+textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ccc;
+}
+
+.submit {
+	background-color: #4aaaa5;
+	width: 120px;
+	height: 45px;
+	color: white;
+	font-size: 20px;
+	margin: 10px;
+	margin-left: 0px;
 }
